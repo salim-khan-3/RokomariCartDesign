@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* main container wrappper start */
+.container {
+    width: 732px;
+    height: 177px;
+    margin: 200px auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 20px;
+    background-color: antiquewhite;
+}
+.check_cart{
+    display:flex;
+    align-items: center;
+    gap: 20px;
+    width: 80px;
+    background-color: gray;
+}
+.square{
+    width: 17px;
+    border: 1px solid black;
+}
+.cart_book img{
+    width: 80px;
+    height: 114px;
+}
+.Writer_service{
+    width: 203px;
+}
+.book a{
+    font-size: 17px;
+    color: #333333;
+    text-decoration: none;
+}
+.book a:hover{
+    color: darkcyan;
+}
+.writer_name{
+    font-size: 15px;
+    margin: 4px 0px 0px;
+}
+.Writer_service .icon i{
+    margin: 8px 0px 0px;   
+}
+/* price increase decrease part start  */
+.increase_decrease{
+    width: 203px;
+}
+.three_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn1_minus{
+    padding: 4px 12px;  
+}
+.btn1_plus{
+    padding: 4px 12px;  
+}
+.realNumberBtn {
+    padding: 4px 8px;
+}
+
+/* price increase decrease part end */
+
+/* final product price start  */
+.final_product_price{
+    width: 112px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+/* final product price end */
+
+/* main container wrappper end */

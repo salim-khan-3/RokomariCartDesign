@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rokomari cart design</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+
+        <div class="check_mark">
+            <div class="square">
+                <i class="fa-solid fa-check"></i>
+            </div>
+        </div>
+
+        <div class="check_cart">           
+            <div class="cart_book">
+                <img src="./Assets/Quranjpg.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="Writer_service">
+            <span class="book">
+                <a href="#">কুরআন অধ্যয়নের মৌলিক পদ্ধতি</a>
+            </span>
+            <span class="writer">
+                <p class="writer_name">ইমরান নযর হোসেন</p>
+            </span>
+            <span class="icon">
+                <i class="fa-solid fa-trash-can-arrow-up"></i>
+            </span>
+            <span class="available_copy">
+                <p id="copy"></p>
+            </span>
+        </div>
+
+        <div class="increase_decrease">
+            <div class="three_wrapper">
+                <button class="btn1_minus" >
+                    <i class="fa-solid fa-minus"></i>
+                </button>
+                <button class="realNumberBtn">
+                    <span class="btn2_number">1</span>
+                </button>
+                <button class="btn1_plus">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="final_product_price">
+            <p id="discount_price">245 TK.</p>
+            <del id="without_discount">350 TK.</del>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
