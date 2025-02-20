@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="container">
+    <div class="container" id="container_wrapper">
 
         <div class="check_mark">
-            <div class="square">
-                <i class="fa-solid fa-check"></i>
+            <div  id="square_container">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
             </div>
         </div>
 
@@ -37,15 +37,15 @@
             </span>
         </div>
 
-        <div class="increase_decrease">
+        <div class="increase_decrease" id="wrappper_container">
             <div class="three_wrapper">
-                <button class="btn1_minus" >
+                <button class="btn1_minus" onclick="decreaseCount()" >
                     <i class="fa-solid fa-minus"></i>
                 </button>
                 <button class="realNumberBtn">
-                    <span class="btn2_number">1</span>
+                    <span id="btn2_number">1</span>
                 </button>
-                <button class="btn1_plus">
+                <button class="btn1_plus" onclick="increaseCount()">
                     <i class="fa-solid fa-plus"></i>
                 </button>
             </div>

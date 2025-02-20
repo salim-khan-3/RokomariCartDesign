@@ -11,8 +11,10 @@
     padding: 20px;
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
     gap: 20px;
+    background-color: aliceblue;
+}
+.changeBackground{
     background-color: antiquewhite;
 }
 .check_cart{
@@ -21,10 +23,6 @@
     gap: 20px;
     width: 80px;
     background-color: gray;
-}
-.square{
-    width: 17px;
-    border: 1px solid black;
 }
 .cart_book img{
     width: 80px;
@@ -54,7 +52,7 @@
 }
 .three_wrapper{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 .btn1_minus{
@@ -77,5 +75,9 @@
     align-items: flex-end;
 }
 /* final product price end */
-
+.noticeBox{
+    padding: 4px 8px;
+    border: 1px solid blue;
+    color: blueviolet;
+}
 /* main container wrappper end */
