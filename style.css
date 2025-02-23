@@ -1,83 +1,183 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
-/* main container wrappper start */
-.container {
-    width: 732px;
-    height: 177px;
-    margin: 200px auto;
-    padding: 20px;
+/* navigation part start  */
+.navigation_manu {
+    width: 96.25rem;
+    margin: auto;
     display: flex;
     align-items: center;
-    gap: 20px;
-    background-color: aliceblue;
+    justify-content: space-between;
+    padding: 8px 0px;
 }
-.changeBackground{
-    background-color: antiquewhite;
+
+/* logo part start  */
+.Rokomari_logo img{
+    width: 120px;
+    height: 45px;
 }
-.check_cart{
-    display:flex;
+/* logo part end */
+
+/* search and input field start  */
+.search_field{
+    width: 748px;
+    display: flex;
     align-items: center;
-    gap: 20px;
-    width: 80px;
-    background-color: gray;
+    justify-content: space-between;
+    background-color: azure;
+    border-radius: 30px;
+    padding: 8px 20px 8px 16px;
 }
-.cart_book img{
-    width: 80px;
-    height: 114px;
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 10px;
 }
-.Writer_service{
-    width: 203px;
-}
-.book a{
-    font-size: 17px;
-    color: #333333;
+/* search and input field end */
+
+/* sign In start  */
+.user_signIn a{
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 5px;
+    width: 100px;
+    height: 37px;
     text-decoration: none;
 }
-.book a:hover{
+
+.user_signIn a:hover{
+    background-color: rgb(72, 72, 228);
+    color: aliceblue;
+    border-radius: 15px;
+}
+/* sign In end */
+
+/* cart icon start  */
+#Increment_Number{
+    padding: 3px 6px;
+    color: #fff;
+    background-color:red;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-20%,-70%);
+}
+.signIn_cartNum{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+/* cart icon start  */
+
+/* navigation part end */
+
+
+
+/* main content start  */
+.content_container{
+    width: 96.25rem;
+    margin:0 auto;
+    padding: 50px 0;
+    display: flex;
+    gap: 5.5px;
+}
+
+/* first cart start  */
+.cart_one {
+    width:215px;
+    height:361px;
+    
+    /* padding: 10px 10px 0px 10px; */
+}
+.Product_discount_container h4{
+    color: #fff;
+}
+
+.num_Span_Container {
+    display: inline-block;
+    color: white;
+}
+.cart_one a{
+    text-decoration: none;
+    color: #000;
+}
+.main_cart_container{
+    width: 215px;
+    height: 200px;
+    position: relative;
+    text-align: center;
+}
+.main_cart_container img{
+    width: 130px;
+    height: 180px;
+    /* position: relative;
+    left: -7.5px; */
+}
+.Product_discount_container {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    color: #fff;
+    background-color: red;
+}
+.cart_caption_container h1{
+    font-size: 20px;
+}
+.cart_caption_container h2{
+    font-size: 17px;
+}
+.cart_caption_container p{
+    font-size: 16px;
     color: darkcyan;
 }
-.writer_name{
-    font-size: 15px;
-    margin: 4px 0px 0px;
-}
-.Writer_service .icon i{
-    margin: 8px 0px 0px;   
-}
-/* price increase decrease part start  */
-.increase_decrease{
-    width: 203px;
-}
-.three_wrapper{
+.totalPriceWith_dis_container {
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
-.btn1_minus{
-    padding: 4px 12px;  
+/* view btn and add to cart btn edit start  */
+.cart_one:hover  {
+    /* width:215px;
+    height:361px; */
+    box-shadow: 0px 0px 20px gray;
 }
-.btn1_plus{
-    padding: 4px 12px;  
+.Add_cart{
+    display: none;
 }
-.realNumberBtn {
-    padding: 4px 8px;
+.cart_one:hover .Add_cart {
+    display: block;
+    padding: 15px 45px;
+    border: none;
+    border-radius: 26.5px;
+    color: #fff;
+    background-color: #1e90ff;
+    position: absolute;
+    top: 80px;
+    left: 25px;
 }
+.view_details_info_container{
+    display: none;
+}
+.cart_one:hover .view_details_info_container{
+    display: block;
+    width: 215px;
+    height: 36px;
+    margin-top: 11.8px;
+    border: none;
+    padding: 6px 12px;
+    color:  #1e90ff;
+    background-color: antiquewhite;
+}
+/* view btn and add to cart btn edit end  */
 
-/* price increase decrease part end */
+/* first cart end */
 
-/* final product price start  */
-.final_product_price{
-    width: 112px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-/* final product price end */
-.noticeBox{
-    padding: 4px 8px;
-    border: 1px solid blue;
-    color: blueviolet;
-}
-/* main container wrappper end */
+/* main content end */
