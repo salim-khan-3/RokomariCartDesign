@@ -1,0 +1,35 @@
+@media(min-width:0px) and (max-width:375px){
+    .navigation_manu{
+        width: 375px;
+        gap: 16px;
+        flex-direction: column;
+    }
+    .search_field{
+        width:375px;
+    }
+    .signIn_cartNum{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .cart_container{
+        width: 375px;
+        flex-wrap: wrap;
+    }
+
+    
+}
+@media(min-width:376px) and (max-width:768px){
+    .navigation_manu{
+        width:768px;
+        background-color: red;
+        gap: 25px;
+        padding: 0px 20px;
+        margin-bottom: 60px;
+    }
+    .cart_container{
+        width:768px;
+        flex-wrap: wrap;
+    }
+
+}
