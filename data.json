@@ -1,0 +1,31 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "T-Shirt",
+        "author": "MD SALIM ISLAM",
+        "price": 77,
+        "stock": 2,
+        "image": "./Assets/one.jpeg",
+        "originalPrice": "100"
+      },
+      {
+        "id": 2,
+        "name": "Jeans",
+        "author": "Fashion House",
+        "price": 120,
+        "stock": 5,
+        "image": "./Assets/two.jpeg",
+         "originalPrice": "130"
+      },
+      {
+        "id": 3,
+        "name": "Jeans",
+        "author": "Fashion House",
+        "price": 120,
+        "stock": 5,
+        "image": "./Assets/two.jpeg",
+         "originalPrice": "130"
+      }
+    ]
+  }

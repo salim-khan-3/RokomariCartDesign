@@ -1,0 +1,24 @@
+@media(min-width:0px) and (max-width:375px) {
+    .container{
+        width: 375px;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .right_container{
+        flex-direction: column;
+        gap: 3rem; 
+        justify-content: center;
+     }
+     .section_container{
+        width: 375px;
+        padding: 50px 20px;
+        flex-direction: column-reverse;
+        gap: 3rem;
+     }
+     .card{
+        flex-direction: column;
+    }
+    .card img{
+        width: 100%;
+    }
+}

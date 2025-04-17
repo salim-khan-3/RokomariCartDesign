@@ -7,9 +7,6 @@
 body{
     font-family: "Noto Sans", sans-serif;
 }
-.right_container a{
-    text-decoration: none;
-}
 .container{
     display: flex;
     align-items: center;
@@ -54,6 +51,9 @@ body{
 .right_container{
     gap: 2rem;
 }
+a{
+    text-decoration: none;
+}
 .user{
     color: #000;
     padding: 0.5rem 1rem;
@@ -86,41 +86,87 @@ body{
     padding: 2rem 1rem;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 2rem;
 }
 .card{
-    width: 13.4375rem;
+    display: flex;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-}
-.card_img img{
-    width: 100%;
 }
 .card_content{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 16px;
+    gap: 32px;
+}
+.f_start{
+    display: flex;
     flex-direction: column;
-    gap: 0.5rem;
-    padding: 1rem 0.5rem;
+    gap: 8px;
 }
 .stock{
     color: #27ae60;
 }
-.price{
-    display: flex;
-    gap: 0.8rem;
+.fa-trash:hover{
+    color: rgb(126, 65, 65);
 }
-.price_container {
+.inc_dec {
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 10px;
+}
+
+.inc_dec i {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.inc_dec i:hover {
+    background-color: #ddd;
+}
+
+.item_inc_dec {
+    min-width: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.check_out{
+    width: 315px;
+    padding: 20px;
+    background-color: #ccc;
+}
+.span_container{
+    display: flex;
+    align-items: center;
     justify-content: space-between;
+    border-bottom: 1px dotted #000000af;
 }
-.inc_dec{
+.check_out{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    background-color: aqua;
-    /* padding: 10px; */
+    flex-direction: column;
+    gap: 16px;
 }
+.card_img img {
+    width: 200px;
+}
+.checkItOUt{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.p1{
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+}
+.p2{
+    font-weight: 600;
+    font-size: 1rem ;
+    padding-bottom: 0.5rem;
+}
+
+

@@ -1,0 +1,16 @@
+@media(min-width:0px) and (max-width:375px) {
+    .container{
+        width: 375px;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .right_container{
+       flex-direction: column;
+       gap: 3rem; 
+       justify-content: center;
+    }
+    .section_container{
+        width: 375px;
+        justify-content: center;
+    }
+}

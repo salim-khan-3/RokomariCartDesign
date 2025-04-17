@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rokomari shopping cart design</title>
+    <title>cart page</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./indexRes.css">
+    <link rel="stylesheet" href="./cart.css">
+    <link rel="stylesheet" href="./cartRes.css">
 </head>
 <body>
     <header>
@@ -14,6 +14,7 @@
             <div class="container">
                 <div class="left_container">
                     <img src="./Assets/rokomari.svg" alt="">
+
                 </div>
                 <div class="middle_container">
                     <input type="search" name="search" placeholder="Search">
@@ -24,24 +25,40 @@
                         <i class="fa-solid fa-user"></i>
                         <p>Sign in</p>
                     </div>
-                   <a href="./cart.html">
                     <div class="add_items">
                         <i class="fa-solid fa-cart-shopping"></i>
                         <span class="item" id="item">0</span>
                     </div>
-                   </a>
                 </div>
             </div>
         </nav>
     </header>
 
-
-    <section>
-       <div class="section_container">
-  
-       </div>
-    </section>
-    <script src="./script.js"></script>
-
+<section class="section_container">
+    <div class="cart_wrapper">
+    </div>
+    <div class="check_out">
+        <span class="checkItOUt">
+            <p>checkout summary</p>
+        </span>
+        <div class="span_container">
+            <p class="p2">Subtotal</p>
+            <span class="p2">0</span>
+        </div>
+        <div class="span_container">
+            <p class="p2">Online Fee</p>
+            <span class="p2">0</span>
+        </div>
+        <div class="span_container">
+            <p class="p2">Total</p>
+            <span class="p2">0</span>
+        </div>
+        <div class="span_container">
+            <p class="p1">Payable Total</p>
+            <span class="p1">0</span>
+        </div>
+    </div>
+</section>
+<script src="./cart.js"></script>
 </body>
 </html>
